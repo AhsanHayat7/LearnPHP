@@ -5,7 +5,7 @@ $data= [
 
 //   0     1          2       3
     [1,"Mike tyson","Boxer",25000000], // 0
-    [2,"Muhammad Ali","Goat",100000000], // 1
+    [2,"Muhammad Ali","Goat",100000000], // 1                           // 2d Multidimensinal array
     [3,"khabib","Fighter",3500900],    //  2
     [4,"Islam","Champion",50000000]  //  3
 ];
@@ -20,11 +20,11 @@ echo $data[1][1];
 
 echo "<br>";
 
-for ($row= 0; $row< 4; $row++){
-    for( $col= 0; $col< 4; $col++){
+for ($row= 0; $row< 4; $row++){             //nested loops
+    for( $col= 0; $col< 4; $col++){                           
         echo $data[$row][$col] . " ";
 }
-    echo "<br>";
+    echo "<br>";                                
 }
 
 
@@ -45,4 +45,5 @@ foreach($data as $d1){
     echo "</tr>";
 }
 echo "</table>";
+
 ?>
