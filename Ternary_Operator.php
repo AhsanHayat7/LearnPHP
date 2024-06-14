@@ -17,6 +17,6 @@ echo "$z<br>";
 
 
 $name = "laravel";
-$info = "The name of the framework is " . ($name=="laravel" ? "Go and learn laravel":"Go learn PHP");
+$info = "The name of the framework is " . ($name=="laravel" ? "Go and learn PHP":"Go learn Laravel");
 echo $info;
 ?>

@@ -1,7 +1,6 @@
 <?php
 
-
-// fucntion by reference value
+// function by reference value
 function wow($name){
     $name = "Laravel";
 
